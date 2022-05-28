@@ -17,7 +17,7 @@ dbf = "./c_03mr20.dbf"
 
 # In[2]:
 
-
+!pip install simpledbf
 from simpledbf import Dbf5
 import pandas as pd
 import streamlit as st
