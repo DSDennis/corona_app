@@ -17,12 +17,14 @@ dbf = "./c_03mr20.dbf"
 
 # In[2]:
 
-pip install simpledbf
 from simpledbf import Dbf5
 import pandas as pd
 import streamlit as st
 from datetime import datetime, date
 from numpy import insert
+
+pip install simpledbf==0.2.6
+
 
 
 def get_county_key(df, state):
